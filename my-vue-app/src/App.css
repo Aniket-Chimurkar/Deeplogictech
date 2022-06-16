@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.in{
+  display: flex;
+}
+
+#maindiv{
+  margin-left: 30px;
+}
+.containerr{
+  border: transparent;
+  width: 25%;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  background-color: yellow;
+  margin-right: 20px;
+  
+}
+.containerl{
+  border: transparent;
+  width: 75%;
+  /* margin-top: 20px; */
+  
+}
+.head{
+  font-size: 13px;
+  text-align: left;
+  font-weight: bold;
+}
+.tail{
+  font-size: 13px;
+  text-align: left;
+  color: gray;
+}
+#maindiv1{
+  width: 60%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+
+}
+.maindiv2{
+  height: 100px;
+  width: 400px;
+  border: transparent;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-align: left;
+}
+.head1{
+  color: red;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.tail1{
+  
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.d{
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+}
